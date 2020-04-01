@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HEF.Extensions.SystemTextJson", "src\HEF.Extensions.SystemTextJson\HEF.Extensions.SystemTextJson.csproj", "{F6398A52-1789-40B5-B998-F6E0BDF8374D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6398A52-1789-40B5-B998-F6E0BDF8374D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6398A52-1789-40B5-B998-F6E0BDF8374D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6398A52-1789-40B5-B998-F6E0BDF8374D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6398A52-1789-40B5-B998-F6E0BDF8374D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D63D148-E4B6-4E83-88F4-48AB19741CB7}
+	EndGlobalSection
+EndGlobal
