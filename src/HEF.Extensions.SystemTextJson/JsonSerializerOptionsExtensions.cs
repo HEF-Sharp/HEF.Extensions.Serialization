@@ -1,4 +1,4 @@
-﻿using HEF.Extensions.SystemTextJson;
+﻿using System.Text.Json.Serialization;
 
 namespace System.Text.Json
 {
