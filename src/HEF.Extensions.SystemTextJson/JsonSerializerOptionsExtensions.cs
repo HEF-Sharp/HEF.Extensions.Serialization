@@ -20,6 +20,7 @@ namespace System.Text.Json
                 throw new ArgumentNullException(nameof(options));
 
             options.PropertyNamingPolicy = JsonNamingPolicy.CamelCase;
+            options.DictionaryKeyPolicy = JsonNamingPolicy.CamelCase;
 
             return options;
         }
