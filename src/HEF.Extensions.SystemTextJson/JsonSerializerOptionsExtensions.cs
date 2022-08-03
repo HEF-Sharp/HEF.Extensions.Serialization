@@ -44,5 +44,15 @@ namespace System.Text.Json
 
             return options;
         }
+
+        public static JsonSerializerOptions ConvertEnumToString(this JsonSerializerOptions options)
+        {
+            if (options == null)
+                throw new ArgumentNullException(nameof(options));
+
+            options.Converters.Add(new JsonStringEnumConverter());
+
+            return options;
+        }
     }
 }
